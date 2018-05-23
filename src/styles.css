@@ -1,0 +1,151 @@
+.grid {
+  display: grid;
+  grid-template-rows: repeat(15, 80px);
+  grid-template-columns: repeat(15, 80px);
+}
+
+
+.circle1 {
+  grid-row: span 2;
+  grid-column: span 2;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.hover:focus {
+  grid-column: 4 / 4;
+  transition: grid-column ease 6s;
+}
+
+.circle2 {
+  grid-row: 11 / 11;
+  width:700px;
+  height: 700px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+
+.circle3 {
+  grid-row-start: 6;
+  grid-column-end: 6;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.circle3:hover {
+  transform: rotate(360deg);
+  transition: transform ease 6s;
+}
+
+.circle4 {
+  grid-row: 14 / 14;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
+
+.circle5 {
+  grid-area: 10 / 8 / 13 / 11;
+  width:300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+}
+
+.circle6 {
+  opacity: .8;
+  grid-area: 6 / 7 / 8 / 9;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+
+.circle7 {
+  grid-area: 4 / 4 / 4 / 4;
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.circle7:hover {
+  transform: rotate(360deg);
+  transition: transform ease 6s;
+}
+
+.circle8 {
+  grid-area: 4 / 13 / 6 / 15;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+.circle8:hover {
+  transform: rotate(1000deg);
+  transition: transform ease 6s;
+}
+
+.circle9 {
+  grid-area: 2 / 2 / 2 / 2;
+  width:260px;
+  height: 260px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+
+.circle10 {
+  grid-area: 3 / 8 / 5 / 11;
+  width:500px;
+  height: 500px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+}
+
+.circle10:hover {
+  transform: rotate(360deg);
+  transition: transform ease 6s;
+}
+
+.circle11 {
+  grid-area: 5 / 5 / 5 / 5;
+  width:350px;
+  height: 350px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.circle11 {
+  grid-area: 13 / 11 / 13 / 12;
+  width:350px;
+  height: 350px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.circle12 {
+  grid-area: 8 / 8 / 8 / 8;
+  width:350px;
+  height: 350px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.circle13 {
+  grid-area: 8 / 3 / 9 / 4;
+  width:80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.circle14 {
+  grid-area: 13 / 13 / 13 / 13;
+  width:350px;
+  height: 350px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
